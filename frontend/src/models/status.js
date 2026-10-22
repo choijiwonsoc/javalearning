@@ -1,0 +1,8 @@
+const STATUS = Object.freeze({
+    NO_LOCK:'NO_LOCK',
+    SYNCHRONIZED: 'SYNCHRONIZED',
+    REENTRACT_LOCK: 'REENTRANT_LOCK',
+    ATOMIC_INTEGER: 'ATOMIC_INTEGER'
+})
+
+export default STATUS;
